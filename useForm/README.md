@@ -3,6 +3,10 @@
 Ejemplo:
 
 ```
-    const [ values, handleInputChange, reset ] = useForm();
+const initialForm = {
+    name: '',
+    age: 0,
+    email:''
+};
+    const [ values, handleInputChange, reset ] = useForm( initialForm );
 ```
-recibe un parametro y resetea un objeto vacio por defecto.
