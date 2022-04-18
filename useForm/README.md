@@ -1,3 +1,8 @@
-# Notas
-Este repositorio contiene varioas customHooks para ayudar a quine le sirva.
-Tambien la idea es no volver a escribirlos,
+# useForm
+
+Ejemplo:
+
+```
+    const [ values, handleInputChange, reset ] = useForm();
+```
+recibe un parametro y resetea un objeto vacio por defecto.

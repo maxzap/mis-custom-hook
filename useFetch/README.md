@@ -1,3 +1,8 @@
-# Notas
-Este repositorio contiene varioas customHooks para ayudar a quine le sirva.
-Tambien la idea es no volver a escribirlos,
+# useFetch hook
+
+Ejemplo:
+
+```
+    const url = 'http:url.com';
+    conts { data: null, loading: true, error: null } = useFetch(url);
+```
